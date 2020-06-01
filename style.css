@@ -1,0 +1,509 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+.section video {
+      /* position: absolute; */
+      width: 99%;
+      height: auto;
+      /* margin-bottom: px; */
+      /* top: 50%;
+      left: 50%; */
+    transform: translate(0.5%, 0%);
+  }
+
+.title img {
+  position: absolute;
+  top: 20px;
+  right: 0px;
+  left: 40px;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Futura Light', 'Sans serif' ;
+  font-size: 11pt;
+  color: rgb(189, 0, 255);
+}
+
+/* HOVER CSS START */
+
+
+
+.hover-item {
+  position: absolute;
+  top: 200px;
+  left: 20px;
+  margin: 0px;
+
+}
+
+.hover-item:hover > .hover-layer-text {
+  display: block;
+}
+
+.hover-item:hover > .hover-layer-image {
+  display: block;
+}
+
+/* TEXT HOVER */
+
+.hover-layer-text {
+  position: absolute;
+  top: 200px;
+  left: 60px;
+  width: 200px;
+  height: 300px;
+
+  padding: 10px;
+  display: none;
+}
+
+/* IMAGE HOVER */
+.base-layer-image {
+  position: absolute;
+}
+
+.hover-layer-image {
+  position: absolute;
+  display: none;
+}
+
+.hover-item2 {
+  position: absolute;
+  top: 400px;
+  left: 400px;
+  margin: 0px;
+
+}
+
+.hover-item2:hover > .hover-layer-text2 {
+  display: block;
+}
+
+.hover-item2:hover > .hover-layer-image2 {
+  display: block;
+}
+
+/* TEXT HOVER */
+
+.hover-layer-text2 {
+  position: absolute;
+  top: 200px;
+  left: 110px;
+  width: 200px;
+  height: 300px;
+
+  padding: 10px;
+  display: none;
+}
+
+/* IMAGE HOVER */
+.base-layer-image2 {
+  position: absolute;
+}
+
+.hover-layer-image2 {
+  position: absolute;
+  display: none;
+}
+
+
+.hover-item3 {
+  position: absolute;
+  top: 100px;
+  left: 600px;
+  margin: 0px;
+
+}
+
+.hover-item3:hover > .hover-layer-text3 {
+  display: block;
+}
+
+.hover-item3:hover > .hover-layer-image3 {
+  display: block;
+}
+
+/* TEXT HOVER */
+
+
+.hover-layer-text3 {
+  position: absolute;
+  top: 200px;
+  left: 110px;
+  width: 200px;
+  height: 300px;
+
+  padding: 10px;
+  display: none;
+}
+
+/* IMAGE HOVER */
+.base-layer-image3 {
+  position: absolute;
+}
+
+.hover-layer-image3 {
+  position: absolute;
+  display: none;
+}
+
+
+.hover-item4 {
+  position: absolute;
+  top: -20px;
+  left: 1060px;
+  margin: 0px;
+
+}
+
+.hover-item4:hover > .hover-layer-text4 {
+  display: block;
+}
+
+.hover-item4:hover > .hover-layer-image4 {
+  display: block;
+}
+
+/* TEXT HOVER */
+
+.hover-layer-text4{
+  position: absolute;
+  top: 220px;
+  left: 120px;
+  width: 200px;
+  height: 300px;
+
+  padding: 10px;
+  display: none;
+}
+
+/* IMAGE HOVER */
+.base-layer-image4 {
+  position: absolute;
+}
+
+.hover-layer-image4 {
+  position: absolute;
+  display: none;
+}
+
+.hover-item5 {
+  position: absolute;
+  top: 300px;
+  left: 870px;
+  margin: 0px;
+
+}
+
+.hover-item5:hover > .hover-layer-text5 {
+  display: block;
+}
+
+.hover-item5:hover > .hover-layer-image5 {
+  display: block;
+}
+
+/* TEXT HOVER */
+
+.hover-layer-text5{
+  position: absolute;
+  top: 180px;
+  left: 90px;
+  width: 200px;
+  height: 300px;
+
+  padding: 10px;
+  display: none;
+}
+
+/* IMAGE HOVER */
+.base-layer-image5 {
+  position: absolute;
+}
+
+.hover-layer-image5 {
+  position: absolute;
+  display: none;
+}
+
+
+.hover-item6 {
+  position: absolute;
+  top: 150px;
+  left: 320px;
+  margin: 0px;
+
+}
+
+.hover-item6:hover > .hover-layer-text6 {
+  display: block;
+}
+
+.hover-item6:hover > .hover-layer-image6 {
+  display: block;
+}
+
+/* TEXT HOVER */
+
+.hover-layer-text6{
+  position: absolute;
+  top: 180px;
+  left: 90px;
+  width: 200px;
+  height: 300px;
+
+  padding: 10px;
+  display: none;
+}
+
+/* IMAGE HOVER */
+.base-layer-image6 {
+  position: absolute;
+}
+
+.hover-layer-image6 {
+  position: absolute;
+  display: none;
+}
+
+.hover-item7 {
+  position: absolute;
+  top: 20px;
+  left: 820px;
+  margin: 0px;
+
+}
+
+.hover-item7:hover > .hover-layer-text7 {
+  display: block;
+}
+
+.hover-item7:hover > .hover-layer-image7 {
+  display: block;
+}
+
+/* TEXT HOVER */
+
+.hover-layer-text7{
+  position: absolute;
+  top: 110px;
+  left: 90px;
+  width: 200px;
+  height: 300px;
+
+  padding: 10px;
+  display: none;
+}
+
+/* IMAGE HOVER */
+.base-layer-image7 {
+  position: absolute;
+}
+
+.hover-layer-image7 {
+  position: absolute;
+  display: none;
+}
+
+.hover-item8 {
+  position: absolute;
+  top: 400px;
+  left: 1120px;
+  margin: 0px;
+
+}
+
+.hover-item8:hover > .hover-layer-text8 {
+  display: block;
+}
+
+.hover-item8:hover > .hover-layer-image8 {
+  display: block;
+}
+
+/* TEXT HOVER */
+
+.hover-layer-text8{
+  position: absolute;
+  top: 110px;
+  left: 90px;
+  width: 200px;
+  height: 300px;
+
+  padding: 10px;
+  display: none;
+}
+
+/* IMAGE HOVER */
+.base-layer-image8 {
+  position: absolute;
+}
+
+.hover-layer-image8 {
+  position: absolute;
+  display: none;
+}
+
+.hover-item9 {
+  position: absolute;
+  top: 500px;
+  left: 1120px;
+  margin: 0px;
+
+}
+
+.hover-item9:hover > .hover-layer-text9 {
+  display: block;
+}
+
+.hover-item9:hover > .hover-layer-image9 {
+  display: block;
+}
+
+/* TEXT HOVER */
+
+.hover-layer-text9{
+  position: absolute;
+  top: 150px;
+  left: 90px;
+  width: 200px;
+  height: 300px;
+
+  padding: 10px;
+  display: none;
+}
+
+/* IMAGE HOVER */
+.base-layer-image9 {
+  position: absolute;
+}
+
+.hover-layer-image9 {
+  position: absolute;
+  display: none;
+}
+
+.hover-item10 {
+  position: absolute;
+  top: 330px;
+  left: 180px;
+  margin: 0px;
+
+}
+
+.hover-item10:hover > .hover-layer-text10 {
+  display: block;
+}
+
+.hover-item10:hover > .hover-layer-image10 {
+  display: block;
+}
+
+/* TEXT HOVER */
+
+.hover-layer-text10{
+  position: absolute;
+  top: 110px;
+  left: 90px;
+  width: 200px;
+  height: 300px;
+
+  padding: 10px;
+  display: none;
+}
+
+/* IMAGE HOVER */
+.base-layer-image10 {
+  position: absolute;
+}
+
+.hover-layer-image10 {
+  position: absolute;
+  display: none;
+}
+
+.hover-item11 {
+  position: absolute;
+  top: 460px;
+  left: 180px;
+  margin: 0px;
+
+}
+
+.hover-item11:hover > .hover-layer-text11 {
+  display: block;
+}
+
+.hover-item11:hover > .hover-layer-image11 {
+  display: block;
+}
+
+/* TEXT HOVER */
+
+.hover-layer-text11{
+  position: absolute;
+  top: 140px;
+  left: 90px;
+  width: 200px;
+  height: 300px;
+
+  padding: 10px;
+  display: none;
+}
+
+/* IMAGE HOVER */
+.base-layer-image11 {
+  position: absolute;
+}
+
+.hover-layer-image11 {
+  position: absolute;
+  display: none;
+}
+
+.hover-item12 {
+  position: absolute;
+  top:570px;
+  left: 760px;
+  margin: 0px;
+
+}
+
+.hover-item12:hover > .hover-layer-text12 {
+  display: block;
+}
+
+.hover-item12:hover > .hover-layer-image12 {
+  display: block;
+}
+
+/* TEXT HOVER */
+
+.hover-layer-text12{
+  position: absolute;
+  top: 110px;
+  left: 90px;
+  width: 200px;
+  height: 300px;
+
+  padding: 10px;
+  display: none;
+}
+
+/* IMAGE HOVER */
+.base-layer-image12 {
+  position: absolute;
+}
+
+.hover-layer-image12 {
+  position: absolute;
+  display: none;
+}
